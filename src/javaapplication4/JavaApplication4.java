@@ -41,7 +41,7 @@ public class JavaApplication4 {
             }
         } catch (IOException e) {
             System.out.println("Erreurs : impossible de lire le fichier " + chemin);
-            System.out.println("Détail : " + e.getMessage());
+            System.out.println("Détail : " + e.getMessage() + " !!!");
         }
     }
 
