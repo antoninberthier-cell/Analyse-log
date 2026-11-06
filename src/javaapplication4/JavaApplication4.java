@@ -40,7 +40,7 @@ public class JavaApplication4 {
                 System.out.println("");
             }
         } catch (IOException e) {
-            System.out.println("Erreur : impossible de lire le fichier " + chemin);
+            System.out.println("Erreurs : impossible de lire le fichier " + chemin);
             System.out.println("Détail : " + e.getMessage());
         }
     }
