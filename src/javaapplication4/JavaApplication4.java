@@ -13,6 +13,12 @@ import java.io.IOException;
  */
 public class JavaApplication4 {
     
+    public static boolean ip(String []champs ) {
+        for (int i = 0; i < 1000; i = i++){
+             if ()
+        }
+    }
+    
     static final String[] IPS_DESTINATION_CONNUES = {
             "10.10.0.1", "10.10.0.2", "10.10.0.10", "10.10.0.11",
             "10.10.0.20", "10.10.0.21", "10.10.0.30", "10.10.0.31"
@@ -38,7 +44,7 @@ public class JavaApplication4 {
                 for (String champ : champs) {
                     System.out.print(champ + " ");
                 }
-                System.out.println("");
+                System.out.println("=>>>>> " + champs[3]);
             }
         } catch (IOException e) {
             System.out.println("Erreurs : impossible de lire le fichier " + chemin);
